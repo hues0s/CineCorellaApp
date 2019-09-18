@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Cine Corella App</string>
+    <string name="tab_text_1">Cartelera</string>
+    <string name="tab_text_2">Próximamente</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
