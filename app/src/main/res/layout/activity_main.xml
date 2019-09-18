@@ -34,19 +34,23 @@
 
                 />
 
-            <Button
+            <ImageView
+                    style="@style/Widget.AppCompat.ActionButton"
                     android:id="@+id/app_bar_info"
-                    android:layout_width="40dp"
-                    android:layout_height="30dp"
-                    style="@style/Widget.AppCompat.Button.Borderless"
-                    android:drawableStart="@drawable/ic_menu_info"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_menu_info"
 
                     app:layout_constraintTop_toTopOf="parent"
                     android:layout_marginTop="13dp"
                     app:layout_constraintEnd_toEndOf="parent"
                     android:layout_marginEnd="20dp"
 
-                    />
+                    android:paddingBottom="15dp"
+                    android:onClick="infoAction"
+            />
+
+
 
         </androidx.constraintlayout.widget.ConstraintLayout>
 
