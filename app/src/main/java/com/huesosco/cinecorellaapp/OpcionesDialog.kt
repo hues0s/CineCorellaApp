@@ -25,6 +25,7 @@ class OpcionesDialog(pn: String) : DialogFragment() {
 
         val valoraButton = dialogView.findViewById<Button>(R.id.button_opciones_valora)
         val masAppsButton = dialogView.findViewById<Button>(R.id.button_opciones_masapps)
+        val sitioWebButton = dialogView.findViewById<Button>(R.id.button_opciones_sitioweb)
 
         valoraButton.setOnClickListener {
             try{
@@ -42,6 +43,10 @@ class OpcionesDialog(pn: String) : DialogFragment() {
             } catch (ex: ActivityNotFoundException) {
                 Toast.makeText(dialogView.context, "Error al intentar abrir Google Play", Toast.LENGTH_SHORT).show()
             }
+        }
+
+        sitioWebButton.setOnClickListener {
+            startActivity(Intent(Intent.ACTION_VIEW, Uri.parse("http://www.cinecorella.es")))
         }
 
 

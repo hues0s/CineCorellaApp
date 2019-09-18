@@ -61,7 +61,8 @@ class RecyclerAdapter(c: Context, l : ArrayList<RecyclerItemData>, fm : Fragment
                     isFirstResource: Boolean
                 ): Boolean {
                     holder.progressBar.visibility = View.GONE
-                    return false                }
+                    return false
+                }
 
             })
             .into(holder.cartel)

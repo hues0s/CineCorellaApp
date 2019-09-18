@@ -60,7 +60,7 @@
     />
 
     <ScrollView android:layout_width="match_parent"
-                android:layout_height="wrap_content">
+                android:layout_height="200dp">
 
         <TextView
                 android:id="@+id/text_info_dialog_sinopsis"
