@@ -6,7 +6,12 @@ import androidx.viewpager.widget.ViewPager
 import androidx.appcompat.app.AppCompatActivity
 import com.huesosco.cinecorellaapp.ui.tabs.SectionsPagerAdapter
 import android.os.Build
+import android.view.Menu
+import android.view.MenuItem
 import android.view.View
+import android.widget.Button
+import android.widget.TextView
+import android.widget.Toast
 import androidx.core.content.ContextCompat
 
 
@@ -31,7 +36,16 @@ class MainActivity : AppCompatActivity() {
         val tabs: TabLayout = findViewById(R.id.tabs)
         tabs.setupWithViewPager(viewPager)
 
+        val infoButton = findViewById<Button>(R.id.app_bar_info)
+        infoButton.setOnClickListener {
+            val dialog = OpcionesDialog(this.packageName)
+            dialog.show(supportFragmentManager, "opciones dialog")
+
+        }
+
     }
+
+
 
 
 }

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:minWidth="300dp"
+
+        >
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Opciones"
+            android:paddingTop="20dp"
+            android:paddingStart="20dp"
+            android:paddingEnd="20dp"
+            android:textColor="@color/colorAccent"
+            android:gravity="center"
+            android:textSize="20sp"
+            />
+
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="11dp"
+            android:paddingStart="20dp"
+            android:paddingEnd="20dp"
+            android:text="Modo nocturno"
+            android:gravity="start"
+            android:textSize="16sp"
+            android:textColor="#212121"
+            />
+
+    <Button
+            android:id="@+id/button_opciones_valora"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:text="Valora la aplicación"
+            android:textSize="17sp"
+
+            />
+
+    <Button
+            android:id="@+id/button_opciones_masapps"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:text="Otras apps"
+            android:textSize="17sp"
+
+            />
+
+
+
+
+    <Button
+            android:id="@+id/button_opciones_dialog_cerrar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/Widget.AppCompat.Button.Borderless"
+
+            android:text="Cerrar"
+            android:textColor="@color/colorAccent"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="4dp"
+            android:layout_gravity="end"
+            android:textStyle="bold"
+            />
+
+
+
+</LinearLayout>
