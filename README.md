@@ -13,6 +13,6 @@ Splash screen          |  Homepage          |  Movie Info Dialog
 ![splash](https://firebasestorage.googleapis.com/v0/b/cine-corella-app.appspot.com/o/screenshots%2FScreenshot_1568842059.png?alt=media&token=972763bb-4062-4b01-949a-8e0495839906)  |  ![home](https://firebasestorage.googleapis.com/v0/b/cine-corella-app.appspot.com/o/screenshots%2FScreenshot_1568841965.png?alt=media&token=136041c1-0c42-446a-8de9-bd50a3dbf3ae)  |  ![info](https://firebasestorage.googleapis.com/v0/b/cine-corella-app.appspot.com/o/screenshots%2FScreenshot_1568841971.png?alt=media&token=925afde1-1fa3-4621-9e2e-b571c9386999)
 
 ## Download 📲
-_soon..._
+Download the app from [Google Play](https://play.google.com/store/apps/details?id=com.huesosco.cinecorellaapp)
 
 ---
