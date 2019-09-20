@@ -1,4 +1,4 @@
-package com.huesosco.cinecorellaapp.recycler
+package com.huesosco.cinecorellaapp.dialogs
 
 import android.os.Bundle
 import android.view.LayoutInflater

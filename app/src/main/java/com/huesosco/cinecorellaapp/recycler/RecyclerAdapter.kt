@@ -17,6 +17,7 @@ import com.bumptech.glide.load.engine.GlideException
 import com.bumptech.glide.request.RequestListener
 import com.bumptech.glide.request.target.Target
 import com.huesosco.cinecorellaapp.R
+import com.huesosco.cinecorellaapp.dialogs.InfoDialog
 
 
 class RecyclerAdapter(c: Context, l : ArrayList<RecyclerItemData>, fm : FragmentManager): RecyclerView.Adapter<RecyclerAdapter.ViewHolder>() {
@@ -76,7 +77,11 @@ class RecyclerAdapter(c: Context, l : ArrayList<RecyclerItemData>, fm : Fragment
         holder.genero.text = list[position].gender
 
         holder.cardView.setOnClickListener {
-            val infoDialog = InfoDialog(list[position].sinopsis, list[position].horarios, holder.titulo.text.toString())
+            val infoDialog = InfoDialog(
+                list[position].sinopsis,
+                list[position].horarios,
+                holder.titulo.text.toString()
+            )
             infoDialog.show(fragmentManager, "info dialog")
         }
 

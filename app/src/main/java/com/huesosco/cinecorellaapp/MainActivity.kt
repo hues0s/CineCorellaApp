@@ -7,18 +7,9 @@ import androidx.viewpager.widget.ViewPager
 import androidx.appcompat.app.AppCompatActivity
 import com.huesosco.cinecorellaapp.ui.tabs.SectionsPagerAdapter
 import android.os.Build
-import android.view.Menu
-import android.view.MenuItem
-import android.view.MotionEvent
 import android.view.View
-import android.widget.Button
-import android.widget.ImageView
-import android.widget.TextView
-import android.widget.Toast
 import androidx.core.content.ContextCompat
-
-
-
+import com.huesosco.cinecorellaapp.dialogs.OpcionesDialog
 
 
 class MainActivity : AppCompatActivity() {
